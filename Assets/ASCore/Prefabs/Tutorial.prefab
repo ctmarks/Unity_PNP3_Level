@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &159166
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 453978}
+  - 33: {fileID: 3327850}
+  - 65: {fileID: 6575600}
+  - 114: {fileID: 11498562}
+  m_Layer: 0
+  m_Name: Tutorial
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &453978
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159166}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 5, y: 3, z: 5}
+  m_LocalScale: {x: 3.777495, y: 3.7774913, z: 4.895629}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!33 &3327850
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159166}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!65 &6575600
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159166}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &11498562
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 159166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7051157e0797c34bb8a33c1bc0605ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  msgFrom: Tutorial
+  msgBody:
+  - Welcome to <b>SCRAPS</b>!
+  - Use <b>WASD</b> to move, <b>SPACE</b> to jump, and <b>C</b> to crouch.
+  - <b>LEFT SHIFT</b> changes your camera's view.
+  - <b>Move your mouse</b> to look around.
+  - Press <b>F</b> to toggle your flashlight.
+  - Press <b>E</b> to interact with some objects.
+  - You are equipped with a <b>GRAVNULL</b>.
+  - <b>LEFT MOUSE BUTTON</b> holds objects, and <b>RIGHT MOUSE BUTTON</b> will launch
+    them.
+  - <b>ZXQE</b> will allow you to rotate an object that is currently held.
+  - Press <b>~</b> to lock/unlock your camera.
+  - To access the Dev Console, press and hold <b>G</b>, then <b>M</b>, then <b>RETURN</b>.
+  - Good luck, and have fun!
+  msgTime: 5
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 159166}
+  m_IsPrefabParent: 1
