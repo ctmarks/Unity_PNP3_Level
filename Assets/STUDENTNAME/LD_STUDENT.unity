@@ -438,6 +438,68 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cd718f1b8ca4ec04f96c069372251475, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &58190547
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 905445995}
+    m_Modifications:
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -18.834053
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3.9096885
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -5.709305
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3.5751858
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 2.8290865
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439408, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: msgBody
+      value: Player will use elevator key to go to the second floor.
+      objectReference: {fileID: 0}
+    - target: {fileID: 193048, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_Name
+      value: Take elevator to second floor
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &58190548 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+  m_PrefabInternal: {fileID: 58190547}
 --- !u!1001 &75609262
 Prefab:
   m_ObjectHideFlags: 0
@@ -1794,6 +1856,69 @@ Mesh:
   m_BakedConvexCollisionMesh: 
   m_BakedTriangleCollisionMesh: 
   m_MeshOptimized: 0
+--- !u!1001 &184749647
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 905445995}
+    m_Modifications:
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -5.339858
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3.8066885
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -20.354755
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 193048, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_Name
+      value: SecondRoomDoor
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3.881976
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 2.0723312
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439408, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: msgBody
+      value: I want the player to have to interact with something to open this door,
+        possibly a button, but this button may be obscured by some boxes.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &184749648 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+  m_PrefabInternal: {fileID: 184749647}
 --- !u!43 &191263724
 Mesh:
   m_ObjectHideFlags: 0
@@ -4314,6 +4439,60 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0.5, y: 0.5, z: 0.5}
+--- !u!1001 &409581610
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 905445995}
+    m_Modifications:
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 6.4442244
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.2766886
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -2.8013306
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439408, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: msgBody
+      value: Player will find elevator key
+      objectReference: {fileID: 0}
+    - target: {fileID: 193048, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_Name
+      value: FindElevatorKey
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &409581611 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+  m_PrefabInternal: {fileID: 409581610}
 --- !u!1001 &423151848
 Prefab:
   m_ObjectHideFlags: 0
@@ -8928,6 +9107,69 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0.5, y: 0.5, z: 0.5}
+--- !u!1001 &748563215
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 905445995}
+    m_Modifications:
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.109354
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3.0666885
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -13.071945
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 193048, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_Name
+      value: ThirdRoomBoxes
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.581752
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 2.1383653
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439408, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: msgBody
+      value: I want the player to move some boxes out of the way to reveal a crawl
+        space because the door button is broken.
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &748563216 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+  m_PrefabInternal: {fileID: 748563215}
 --- !u!1 &750816094
 GameObject:
   m_ObjectHideFlags: 0
@@ -10380,6 +10622,40 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0.5, y: 0.5, z: 0.5}
+--- !u!1 &905445994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 905445995}
+  m_Layer: 0
+  m_Name: SetupVolumes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &905445995
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 905445994}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.867133, y: -0.7766886, z: 70.857834}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 748563216}
+  - {fileID: 184749648}
+  - {fileID: 1835911885}
+  - {fileID: 2029689387}
+  - {fileID: 409581611}
+  - {fileID: 58190548}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &907919146
 GameObject:
   m_ObjectHideFlags: 0
@@ -21462,6 +21738,69 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0.5, y: 0.5, z: 0.5}
+--- !u!1001 &1835911884
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 905445995}
+    m_Modifications:
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -5.487133
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3.7166886
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -25.537834
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 2.0256124
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 5.72111
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439408, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: msgBody
+      value: I want the player to open the door with some sort of interaction, possibly
+        a button.
+      objectReference: {fileID: 0}
+    - target: {fileID: 193048, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_Name
+      value: FrontDoor
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1835911885 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+  m_PrefabInternal: {fileID: 1835911884}
 --- !u!1 &1841263928
 GameObject:
   m_ObjectHideFlags: 0
@@ -23830,6 +24169,68 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0.5, y: 0.5, z: 0.5}
+--- !u!1001 &2029689386
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 905445995}
+    m_Modifications:
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -6.427133
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 3.7366886
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -6.1075134
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 6.851062
+      objectReference: {fileID: 0}
+    - target: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 3.698193
+      objectReference: {fileID: 0}
+    - target: {fileID: 11439408, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: msgBody
+      value: I want the user to break through the glass window using box in the room.
+      objectReference: {fileID: 0}
+    - target: {fileID: 193048, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+      propertyPath: m_Name
+      value: PlayerBreaksWindow
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &2029689387 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 483316, guid: 840f8d68160279c4392ccdb552880abf, type: 2}
+  m_PrefabInternal: {fileID: 2029689386}
 --- !u!1 &2041338415
 GameObject:
   m_ObjectHideFlags: 0
